@@ -2,23 +2,24 @@ var source   = $("#excuses-template").html();
 var template = Handlebars.compile(source);
 var data1 = { excuse: [
 { id: "1", 
-	title: "Ci esporremo allo spam", 
+	title: "As pessoas vão interpretar os dados mal", 
 	answers: [ 
-		{answer: "Non è necessario includere gli indirizzi email nei dataset."},
-		{answer: "E comunque i vostri indirizzi email sono già sul sito!"},
-		{answer: "Esistono i filtri anti-spam."},
-		{answer: "In generale, si può lasciare ai singoli la decisione di includere o meno l’email."}
+		{answer: "Acrescente documentação sobre como os dados devem ser lidos; além de notas técnicas, pequenos tutoriais podem ser muito úteis!"},
+		{answer: "Prepare-se para ajudar e corrigir essas pessoas; aquelas que interpretarem mal sem querer vão ficar agradecidas pela ajuda;"},
+		{answer: "Na verdade, publicar ativamente pode ser útil para contrapor distorções intencionais (por exemplo, de dados obtidos via Lei de Acesso à Informação), pois é possível mencionar a base aberta online e refutar a interpretação equivocada."}
 	]
 },
 {	id: "2",
-	title: "I terroristi potrebbero utilizzare questi dati", 
+	title: "A base é grande demais", 
 	answers: [
-		{answer: "Solitamente questa scusa la utilizza solo chi non vuole fare nulla in materia - e comunque è una scusa che non si regge in piedi."},
-		{answer: "Potrebbe essere un argomento valido, nel caso si parli di armi (anche nucleari, chimiche o batteriologiche) o di informazioni che renderebbero degli individui come un “obbiettivo” (come i nomi di ricercatori che stanno conducendo esperimenti in un ambito controverso, come i test su animali). Questi sono dubbi legittimi."},
-		{answer: "I dati sensibili, tuttavia, possono essere comunque ottenuti con altri mezzi. Per esempio, i punti di incontro in un edificio in caso di incendio possono facilmente essere individuati: i segnali sono evidenti e chiunque li nota semplicemente passando. In altre parole, persone intenzionate a scoprire queste informazioni le otterrebbero comunque, dunque ci sono pochi rischi (o non ce ne sono affatto) nel rendere questi dati riutilizzabili."},
-		{answer: "Si può creare un subset di dati che potrebbe ridurre o eliminare questo rischio?"},
-		{answer: "Quali sono esattamente i dati che potrebbe essere problematico rivelare?"}
+		{answer: "Provavelmente, não é tão grande quanto pensa (a menos que você esteja no CERN);"},
+		{answer: "Os mantenedores dos dados provavelmente têm orgulho do tamanho da base de dados, então não ofenda tentando dizer que não é tão grande assim;"},
+		{answer: "Pergunte se eles se importam que você faça alguns experimentos (e gentilmente mostre que é algo prático de se fazer)."},
+		
 	]
+
+
+
 },
 {	id: "3",
 	title: "Qualcuno potrebbe chiamarci e chiederci cose", 
