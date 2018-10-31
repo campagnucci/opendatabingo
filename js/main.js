@@ -22,9 +22,9 @@ var data1 = { excuse: [
 
 },
 {	id: "3",
-	title: "Qualcuno potrebbe chiamarci e chiederci cose", 
+	title: "Alguém pode nos ligar e fazer perguntas", 
 	answers: [
-		{answer: "Questa è la classica obiezione posta da coloro che si sentono già oberati di lavoro e/o che non considerano questo compito come parte del loro lavoro. Bisogna chiedere ai loro superiori se questo costituisca davvero un problema per le loro funzioni."}
+		{answer: "Essa é a resposta classica daqueles que já se sentem sobrecarregados com o trabalho e/ou que não consideram essa tarefa como parte de seu trabalho. É preciso perguntar a seus superiores se isso realmente constitui um problema para suas funções"}
 	]
 },
 { id: "4",
@@ -37,11 +37,11 @@ var data1 = { excuse: [
 },
 {
 	id: "5",
-	title: "Il dataset è troppo grande", 
+	title: "O conjunto de dados é muito grande", 
 	answers: [
-		{answer: "Probabilmente non è grande come pensano (a meno che si stia parlando del CERN)."},
-		{answer: "I titolari dei dati sono probabilmente fieri delle dimensioni del loro dataset, quindi non insultarli dichiarando che non è qualcosa di veramente grosso."},
-		{answer: "Chiedi se sono favorevoli a effettuare degli esperimenti (e mostra con gentilezza quanto sia pratico/semplice farlo)"}
+		{answer: "Provavelmente não é tão grande quanto eles pensam."},
+		{answer: "Os donos de dados provavelmente se orgulham do tamanho de seus conjuntos de dados, por isso não os insulte afirmando que não é algo realmente grande."},
+		{answer: "Pergunte se eles estão dispostos a realizar experimentos (e gentilmente mostrar como é prático / fácil)."}
 	]
 },
 {	id: "6",
