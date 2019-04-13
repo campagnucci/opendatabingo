@@ -23,7 +23,7 @@ var data1 = { excuse: [
 	title: "As pessoas vão começar a ligar para perguntar coisas",
 	answers: [
 		{answer: "Geralmente, essa é uma objeção de pessoas que se sentem sobrecarregadas e acham que isso não faz parte de suas atribuições. Levar o assunto a um nível mais alto de gestão pode ajudar a identificar se isso vai ser útil ou, de fato, perda de tempo."},
-		{answer: "Em minha experiência (Fernanda, na Prefeitura de São Paulo), o que acontece é justamente o contrário: as pessoas deixam de ter trabalho extraindo a mesma base de dados para setores diferentes mais de uma vez, ou responder individualmente a pedidos de informação. Pessoas resistentes a princípio já vieram agradecer pela abertura de dados depois por esse motivo"}
+		{answer: "Em minha experiência na Prefeitura de São Paulo, o que acontece é justamente o contrário: as pessoas deixam de ter trabalho extraindo a mesma base de dados para setores diferentes mais de uma vez, ou responder individualmente a pedidos de informação. Pessoas resistentes a princípio já vieram agradecer pela abertura de dados depois por esse motivo"}
 	]
 },
 {	id: "4",
@@ -36,23 +36,24 @@ var data1 = { excuse: [
 		{answer: "Não raro, os dados são solicitados por meio de pedidos de informação ou serviços de atendimento ao cidadão e os técnicos não ficam sabendo; procure saber se é o caso e apresente os números"}
 	]
 },
-{	id: "7",
-	title: "Potremmo utilizzare i dati in una pubblicazione nostra", 
+{	id: "5",
+	title: "Podemos utilizar os dados em uma publicação inédita nossa",
 	answers: [
-		{answer: "Un’opzione è avere un periodo di embargo automatico o opzionale; richiedendo alle persone di archiviare i loro dati al momento della creazione ma rendendoli disponibili dopo X mesi. Potresti addirittura offrire l’opzione di rinnovare l’embargo, così potrebbero essere pubblicate solo le cose per cui non c’è più interesse, ma senza perdere l’opportunità di rendere, alla fine, tutto aperto."}
+		{answer: "Já ouvi essa de um departamento que faz pesquisa. Existiria uma opção de fazer um embargo por determinado período, mas ela não seria compatível com a Lei de Acesso à Informação em nosso contexto. Essa não é uma das possibilidades de negativa de abertura previstas em lei."}
 	]
 },
-{	id: "8",
-	title: "Non c’è una API per ottenere i dati",
+{	id: "6",
+	title: "Este sistema não possui uma API pública",
 	answers: [
-		{answer: "Non serve necessariamente una API pubblica. Che ne pensi di un’interfaccia con il database (SQL) dietro le quinte? Potrebbe anche essere possibile esportare i dati come file piatti e riversarli in un qualche posto adeguato alla loro successiva trasformazione."},
-		{answer: "Come ultima risorsa, puoi ottenere i dati dal sito pubblico."},
-		{answer: "Parla con il fornitore del sistema. Open Data è una nuova parola molto di moda, potrebbero essere interessati a cogliere l’occasione con poco sforzo."},
+		{answer: "Mas uma API pública não é requisito para abertura - embora seja algo extremamente desejável."},
+		{answer: "É possível extrair bases estáticas e criar uma rotina para transformá-las manual e periodicamente. Também é possível fazer scripts para automatizar esse processo"},
+		{answer: "Como último recurso, é possível raspar os dados de uma página web pública"},
+		{answer: "Fale com o mantenedor ou fornecedor do sistema; dados abertos estão na moda e pode ser interessante para eles embarcar nisso."},
 	]
 }
 ]};
 var data2 = { excuse: [
-{	id: "9",
+{	id: "7",
 	title: "Siamo preoccupati per la tutela dei dati personali e sensibili", 
 	answers: [
 		{answer: "Il Codice della Privacy (D. Lgs. 196/2003) prevede la tutela dei diritti di riservatezza delle sole persone fisiche, non di quelle giuridiche (aziende, associazioni, fondazioni): pertanto, se i dati (meglio: i dataset) non contengono dati personali, sensibili o giudiziari relativi a persone fisiche, il Codice privacy non costituisce un ostacolo alla pubblicazione. In ogni caso, l’articolo 4 del D. Lgs. 33/2013 disciplina i rapporti tra pubblicazione dei dati e privacy, introducendo dei criteri che sono da ritenersi generali (es. anonimizzazione)  e costituire una guida per non incorrere in violazioni. "},
@@ -61,7 +62,7 @@ var data2 = { excuse: [
 		{answer: "Chiedete ai titolari dei dati un’esplicita autorizzazione a pubblicare i dati che li riguardano, sempre nei limiti di quanto imposto dal Codice della privacy."}
 	]
 },
-{	id: "10",
+{	id: "8",
 	title: "Non siamo sicuri di essere titolari dei dati", 
 	answers: [
 		{answer: "Questo è il problema dei cataloghi delle biblioteche, spesso i metadati provengono da diverse fonti a pagamento che non permettono la libera ri-pubblicazione. Talvolta non è chiaro esattamente quali dati provengono da quale fonte, quindi l’intero dataset è corrotto."},
@@ -70,7 +71,7 @@ var data2 = { excuse: [
 		{answer: "C’è qualcos’altro di cui siamo sicuramente titolari noi?"}
 	]
 },
-{	id: "11",
+{	id: "9",
 	title: "Non ho problemi a rendere i dati aperti, ma sono preoccupato che qualcun altro possa obiettare qualcosa", 
 	answers: [
 		{answer: "Questa è più una manovra diversiva che un vero problema."},
@@ -79,14 +80,14 @@ var data2 = { excuse: [
 		{answer: "Richiedi un sottoinsieme di dati meno controverso."}
 	]
 },
-{	id: "12",
+{	id: "10",
 	title: "É muito complicado", 
 	answers: [
 		{answer: "Questa è una questione simile a “è troppo grande”."},
 		{answer: "Non mostrarti compiaciuto se viene fuori che non era così complicato, potrebbe compromettere le tue relazioni professionali con il fornitore dei dati"}
 	]
 },
-{	id: "13",
+{	id: "11",
 	title: "I nostri dati sono brutti in modo imbarazzante",
 	answers: [
 		{answer: "Molti occhi ti aiuteranno a migliorare i tuoi dati (ad esempio evidenziando inesattezze)."},
@@ -96,51 +97,16 @@ var data2 = { excuse: [
 	]
 },
 {
-	id: "14",
+	id: "12",
 	title: "Non è una priorità e siamo molto impegnati",
 	answers: [
 		{answer: "In cosa sei impegnato? In diversi casi potremmo essere in grado di aiutarti: ad esempio se ci aiutassi ad ottenere i dati che hai già, potremmo essere noi a creare la mappa/report/strumento di cui hai bisogno."}
 	]
 },
-{
-	id: "15",
-	title: "I nostri avvocati vogliono creare una licenza personalizzata",
-	answers: [
-		{answer: "Questo di solito succede quando non si spiega agli avvocati cosa stai cercando di fare."},
-		{answer: "Spesso si assiste a un passaparola fra tecnici e avvocati che risale tutta la catena dell’amministrazione, e potrebbe non esserci sufficiente consapevolezza delle licenze aperte. Prova a vedere se puoi parlare direttamente con gli avvocati."},
-		{answer: "I precedenti possono aiutare. Se sei in grado di mostrare che diverse organizzazioni simili hanno pubblicato dati usando la stessa licenza aperta che intendi usare, le persone avranno più fiducia."}
-	]
-},
-{
-	id: "16",
-	title: "I dati cambiano troppo rapidamente",
-	answers: [
-		{answer: "Potresti impostare dei flussi di dati in tempo reale."},
-		{answer: "Pubblica le porzioni che non cambiano troppo spesso."},
-		{answer: "Pubblica i metadati, con link ad una rappresentazione dei dati in formato leggibile dai computer (o ad una API) che non è parte della tua piattaforma principale di pubblicazione dati."}
-	]
-},
-{
-	id: "17",
-	title: "C’è già un progetto in corso che sembra simile",
-	answers: [
-		{answer: "Spesso questi progetti durano anni, noi possiamo fare subito qualcosa di più economico e agile."},
-		{answer: "Quel progetto produrrà solo uno strumento (ad esempio una app mobile), che non è proprio la stessa cosa."},
-		{answer: "In realtà, scoprire come estrarre i dati per renderli dati aperti può aiutare quel progetto e fargli risparmiare tempo in seguito."}
-	]
-},
-{
-	id: "18",
-	title: "Una parte di quello che chiedi è riservato",
-	answers: [
-		{answer: "Quali parti? Possono essere escluse lasciando qualcos’altro che risulti ancora utile?"},
-		{answer: "È veramente riservato? È per caso già pubblicato in qualche forma disaggregata sul web?"}
-	]
-}
 ]};
 var data3 = { excuse: [
 {
-	id: "19",
+	id: "13",
 	title: "Non sono titolare dei dati, perciò non posso darti il permesso",
 	answers: [
 		{answer: "Rispondere a questa obiezione talvolta può essere tanto semplice quanto scoprire chi realmente possiede i dati."},
@@ -151,7 +117,7 @@ var data3 = { excuse: [
 	]
 },
 {
-	id: "20",
+	id: "14",
 	title: "Non abbiamo quei dati",
 	answers: [
 		{answer: "Talvolta ce li hanno, ma non se ne rendono conto (“Non sono dati, è solo un foglio di calcolo...”)."},
@@ -163,7 +129,7 @@ var data3 = { excuse: [
 	]
 },
 {
-	id: "21",
+	id: "15",
 	title: "I dati sono già pubblicati attraverso l’organizzazione esterna X",
 	answers: [
 		{answer: "Spesso le organizzazioni esterne non rilasceranno i dati sotto una licenza aperta, limitando la loro utilità all’organizzazione interessata. Pubblicarli noi in modo autonomo comporterà che potremo fare un uso completo dei dati."},
@@ -174,7 +140,7 @@ var data3 = { excuse: [
 	]
 },
 {
-	id: "22",
+	id: "16",
 	title: "Non possiamo fornire quel dataset a causa di una sua parte",
 	answers: [
 		{answer: "Abbiamo visto intere richieste venire inizialmente negate a causa di una piccola parte che non era disponibile o che era controversa: questo non è più possibile, perché si può obiettare che secondo l’articolo 6 del D. Lgs. 33/2013 “L'esigenza di assicurare adeguata  qualita'  delle  informazioni diffuse non puo', in ogni caso,  costituire  motivo  per  l'omessa  o ritardata pubblicazione dei dati, delle informazioni e dei documenti."},
@@ -182,7 +148,7 @@ var data3 = { excuse: [
 	]
 },
 {
-	id: "23",
+	id: "17",
 	title: "Che succede se qualcosa va male e la versione aperta dei dati diventa obsoleta?",
 	answers: [
 		{answer: "Pianifica il modo in cui si può prevenire che questo avvenga (per esempio, monitorando che gli aggiornamenti temporali non siano troppo radi)."},
@@ -191,14 +157,14 @@ var data3 = { excuse: [
 	]
 },
 {
-	id: "24",
+	id: "18",
 	title: "Non ne vediamo il beneficio",
 	answers: [
 		{answer: "Mostra esempi di un lavoro simile che abbia portato un ritorno sull’investimento a chi ha pubblicato i dati. "}
 	]
 },
 {
-	id: "25",
+	id: "19",
 	title: "Che succede se intendiamo vendere l’accesso a questi dati?",
 	answers: [
 		{answer: "In alcuni casi si tratta di una valida preoccupazione, se vendere dati fa parte del vostro modello di business."},
@@ -208,7 +174,7 @@ var data3 = { excuse: [
 	]
 },
 {
-	id: "26",
+	id: "20",
 	title: "Se pubblichiamo questi dati, le persone potrebbero farci causa",
 	answers: [
 		{answer: "Se la preoccupazione è relativa alla violazione della privacy, è sufficiente adottare i criteri di tutela dei dati personali esposti nei punti precedenti."},
@@ -218,7 +184,7 @@ var data3 = { excuse: [
 	]
 },
 {
-	id: "27",
+	id: "21",
 	title: "Vogliamo che le persone vengano direttamente da noi per conoscere il motivo per cui vogliono i dati",
 	answers: [
 		{answer: "Questo assomiglia a “le persone potrebbero interpretare male i dati” se l’intenzione è quella di aiutare la gente a soddisfare le loro necessità informative."},
