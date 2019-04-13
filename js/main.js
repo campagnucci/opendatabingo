@@ -48,7 +48,7 @@ var data1 = { excuse: [
 		{answer: "Mas uma API pública não é requisito para abertura - embora seja algo extremamente desejável."},
 		{answer: "É possível extrair bases estáticas e criar uma rotina para transformá-las manual e periodicamente. Também é possível fazer scripts para automatizar esse processo"},
 		{answer: "Como último recurso, é possível raspar os dados de uma página web pública"},
-		{answer: "Fale com o mantenedor ou fornecedor do sistema; dados abertos estão na moda e pode ser interessante para eles embarcar nisso."},
+		{answer: "Fale com o mantenedor ou fornecedor do sistema; dados abertos estão na moda e pode ser interessante para eles embarcar nisso."}
 	]
 }
 ]};
