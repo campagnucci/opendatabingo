@@ -2,11 +2,11 @@ var source   = $("#excuses-template").html();
 var template = Handlebars.compile(source);
 var data1 = { excuse: [
 { id: "1", 
-	title: "As pessoas vão interpretar os dados mal", 
+	title: "As pessoas vão interpretar mal os dados",
 	answers: [ 
 		{answer: "Acrescente documentação sobre como os dados devem ser lidos; além de notas técnicas, pequenos tutoriais podem ser muito úteis!"},
 		{answer: "Prepare-se para ajudar e corrigir essas pessoas; aquelas que interpretarem mal sem querer vão ficar agradecidas pela ajuda;"},
-		{answer: "Na verdade, publicar ativamente pode ser útil para contrapor distorções intencionais (por exemplo, de dados obtidos via Lei de Acesso à Informação), pois é possível mencionar a base aberta online e refutar a interpretação equivocada."}
+		{answer: "Na verdade, publicar ativamente pode ser útil para fazer um contraponto a distorções intencionais (por exemplo, de dados obtidos via Lei de Acesso à Informação), pois é possível mencionar a base aberta online, refutar a interpretação equivocada e oferecer a possibilidade de outras pessoas interpretarem de forma diferente."}
 	]
 },
 {	id: "2",
@@ -14,42 +14,26 @@ var data1 = { excuse: [
 	answers: [
 		{answer: "Provavelmente, não é tão grande quanto pensa (a menos que você esteja no CERN);"},
 		{answer: "Os mantenedores dos dados provavelmente têm orgulho do tamanho da base de dados, então não ofenda tentando dizer que não é tão grande assim;"},
-		{answer: "Pergunte se eles se importam que você faça alguns experimentos (e gentilmente mostre que é algo prático de se fazer)."},
+		{answer: "Considere 'quebrar' por ano ou outro recorte e disponibilizar bases separadas."},
+		{answer: "Pergunte se eles se importam que você faça alguns experimentos (e gentilmente mostre que é algo prático e possível de se fazer)."}
 		
 	]
-
-
-
 },
 {	id: "3",
-	title: "Qualcuno potrebbe chiamarci e chiederci cose", 
+	title: "As pessoas vão começar a ligar para perguntar coisas",
 	answers: [
-		{answer: "Questa è la classica obiezione posta da coloro che si sentono già oberati di lavoro e/o che non considerano questo compito come parte del loro lavoro. Bisogna chiedere ai loro superiori se questo costituisca davvero un problema per le loro funzioni."}
+		{answer: "Geralmente, essa é uma objeção de pessoas que se sentem sobrecarregadas e acham que isso não faz parte de suas atribuições. Levar o assunto a um nível mais alto de gestão pode ajudar a identificar se isso vai ser útil ou, de fato, perda de tempo."},
+		{answer: "Em minha experiência (Fernanda, na Prefeitura de São Paulo), o que acontece é justamente o contrário: as pessoas deixam de ter trabalho extraindo a mesma base de dados para setores diferentes mais de uma vez, ou responder individualmente a pedidos de informação. Pessoas resistentes a princípio já vieram agradecer pela abertura de dados depois por esse motivo"}
 	]
 },
-{ id: "4",
-	title: "Le persone interpreteranno i dati in maniera scorretta",
+{	id: "4",
+	title: "Ninguém se interessa por esses dados",
 	answers: [
-		{answer: "Scrivete una documentazione su come i dati dovrebbero essere interpretati."},
-		{answer: "Siate pronti a fornire aiuto e chiarimenti a queste persone; coloro che fraintendono il significato dei dati per errore saranno grati dell’aiuto."},
-		{answer: "La pubblicazione può essere utile per contrastare una rappresentazione fuorviante (ad es. di dati acquisiti tramite la normativa sul diritto d’accesso di cui alla Legge 241/1990 e sul diritto di accesso civico di cui al D. Lgs. 33/2013), poiché si potranno indicare rapidamente i veri dati sul web per confutare l’errata interpretazione."}
-	]
-},
-{
-	id: "5",
-	title: "Il dataset è troppo grande", 
-	answers: [
-		{answer: "Probabilmente non è grande come pensano (a meno che si stia parlando del CERN)."},
-		{answer: "I titolari dei dati sono probabilmente fieri delle dimensioni del loro dataset, quindi non insultarli dichiarando che non è qualcosa di veramente grosso."},
-		{answer: "Chiedi se sono favorevoli a effettuare degli esperimenti (e mostra con gentilezza quanto sia pratico/semplice farlo)"}
-	]
-},
-{	id: "6",
-	title: "Non sono dati interessanti", 
-	answers: [
-		{answer: "Dal momento che glieli stai chiedendo, è ovvio che tu li consideri interessanti. Spiegagli perché."},
-		{answer: "Illustragli qualche caso in cui l’integrazione di altri dataset possa fornire un valore aggiunto al loro dataset (ad esempio, “quali college di Oxbridge offrono quali corsi” può essere integrato con una mappa con cui si indicano gli edifici dove si tengono i corsi, aiutando gli studenti nella scelta del college)."},
-		{answer: "Convincili che non spetta a loro decidere quanto siano interessanti, ma ad altri. Anche dei dataset di nicchia hanno un loro interesse. Detto questo, l’obiettivo non è “pubblicare tutto in formato open”: concentriamoci sui frutti più semplici da cogliere e rimandiamo la roba meno interessante a dopo."}
+		{answer: "Se você está em contato para demandar a abertura desses dados, provavelmente já vê interesse neles. Tente explicar o porquê."},
+		{answer: "Procure ilustrar com um caso em que, integrados a outras bases, esses dados poderiam ser mais interessantes - um exemplo que já usei como argumento: a localização exata de cada poste de iluminação pode ser cruzada com os casos de violência contra a mulher, par verificar se há locais mal-iluminados que podem estar correlacionados a esses eventos"},
+		{answer: "Explique que há interesses que sequer podemos prever, e que é melhor que as pessoas decidam por si; no entanto, procure priorizar o que de fato tem alguma demanda identificada"},
+		{answer: "Na Prefeitura de São Paulo, fizemos iniciativas como o Café Hacker <http://cafehacker.prefeitura.sp.gov.br/> e o plano de dados abertos colaborativo do Pátio Digital, na Educação <http://patiodigital.prefeitura.sp.gov.br/project/plano-dados/>, que são boas metodologias para captar e validar o interesse da sociedade pelos dados."},
+		{answer: "Não raro, os dados são solicitados por meio de pedidos de informação ou serviços de atendimento ao cidadão e os técnicos não ficam sabendo; procure saber se é o caso e apresente os números"}
 	]
 },
 {	id: "7",
