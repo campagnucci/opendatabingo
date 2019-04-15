@@ -32,7 +32,7 @@ var data1 = { excuse: [
 		{answer: "Se você está em contato para demandar a abertura desses dados, provavelmente já vê interesse neles. Tente explicar o porquê."},
 		{answer: "Procure ilustrar com um caso em que, integrados a outras bases, esses dados poderiam ser mais interessantes - um exemplo que já usei como argumento: a localização exata de cada poste de iluminação pode ser cruzada com os casos de violência contra a mulher, par verificar se há locais mal-iluminados que podem estar correlacionados a esses eventos"},
 		{answer: "Explique que há interesses que sequer podemos prever, e que é melhor que as pessoas decidam por si; no entanto, procure priorizar o que de fato tem alguma demanda identificada"},
-		{answer: "Na Prefeitura de São Paulo, fizemos iniciativas como o <a href="http://cafehacker.prefeitura.sp.gov.br"> Café Hacker </a> e o plano de dados abertos colaborativo do Pátio Digital, na Educação <http://patiodigital.prefeitura.sp.gov.br/project/plano-dados/>, que são boas metodologias para captar e validar o interesse da sociedade pelos dados."},
+		{answer: "Na Prefeitura de São Paulo, fizemos iniciativas como o Café Hacker e o plano de dados abertos colaborativo do Pátio Digital, na Educação <http://patiodigital.prefeitura.sp.gov.br/project/plano-dados/>, que são boas metodologias para captar e validar o interesse da sociedade pelos dados."},
 		{answer: "Não raro, os dados são solicitados por meio de pedidos de informação ou serviços de atendimento ao cidadão e os técnicos não ficam sabendo; procure saber se é o caso e apresente os números"}
 	]
 },
