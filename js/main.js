@@ -63,12 +63,12 @@ var data2 = { excuse: [
 	]
 },
 {	id: "8",
-	title: "Non siamo sicuri di essere titolari dei dati", 
+	title: "Não temos certeza se somos os titulares dos dados", 
 	answers: [
-		{answer: "Questo è il problema dei cataloghi delle biblioteche, spesso i metadati provengono da diverse fonti a pagamento che non permettono la libera ri-pubblicazione. Talvolta non è chiaro esattamente quali dati provengono da quale fonte, quindi l’intero dataset è corrotto."},
-		{answer: "Ci sono parti di cui siamo sicuri? Possiamo pubblicare quelle."},
-		{answer: "Se non ne siamo noi i titolari, conosciamo l’effettivo titolare?"},
-		{answer: "C’è qualcos’altro di cui siamo sicuramente titolari noi?"}
+		{answer: "Este é o problema do catálogo da biblioteca, frequentemente os metadados vêm de diversas fontes de aquisição que não permitem a livre republicação. Às vezes não é claro exatamente quais dados vêm de quais fontes, logo o dataset inteiro está corrompido."},
+		{answer: "Há partes do mesmo que temos certeza? Podemos publicar essas partes."},
+		{answer: "Se não somos os titulars, conhecemos os efetivos titulares?"},
+		{answer: "Há outros dados dos quais temos certeza de que nós somos os titulares?"}
 	]
 },
 {	id: "9",
